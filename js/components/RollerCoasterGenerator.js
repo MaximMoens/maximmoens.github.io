@@ -13,8 +13,8 @@ var RollerCoasterGenerator = function ( poem, properties ) {
 
 	_.extend( this, properties ) ;
 
-	this.color1 = new THREE.Color(properties.color1) ? new THREE.Color(properties.color1) : new THREE.Color(0x0066ff);
-	this.color2 = new THREE.Color(properties.color2) ? new THREE.Color(properties.color2) : new THREE.Color(0x00ff04);		
+	this.color1 = new THREE.Color(properties.color1) ? new THREE.Color(properties.color1) : new THREE.Color(0xffffff);
+	this.color2 = new THREE.Color(properties.color2) ? new THREE.Color(properties.color2) : new THREE.Color(0xffff00);		
 	this.rollerSpeed = properties.rollerSpeed ? properties.rollerSpeed : 0.0000015;
 	this.minRollerSpeed = properties.minRollerSpeed ? properties.minRollerSpeed : 0.00004;
 	this.varA = properties.varA ? properties.varA : 3;
