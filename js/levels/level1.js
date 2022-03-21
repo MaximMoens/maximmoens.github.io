@@ -38,8 +38,8 @@ objects : {
 	rollercoastergenerator: {
 		object: require("../components/RollerCoasterGenerator"),
 		properties: {
-			color1: 0xffffff,
-			color2: 0xffff00,
+			color1: 0x0084ff,
+			color2: 0x00ff04,
 			rollerSpeed: 0.00001,
 			minRollerSpeed: 0.00008,
 			varA: 3,
