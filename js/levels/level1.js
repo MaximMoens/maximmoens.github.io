@@ -1,4 +1,4 @@
-var numberOfBalloons = 30;
+var numberOfBalloons = 50;
 module.exports = {
 name : "Theme Park",
 description : "Fun at the fair",
@@ -8,7 +8,7 @@ config : {
 	scoringAndWinning: {
 		message: "Well, that was easy...",
 		nextLevel: "level2",
-		timerCount: 45,
+		timerCount: 90,
 		conditions: [
 			{
 				component: "manager",
