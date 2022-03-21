@@ -1,7 +1,7 @@
 var numberOfBalloons = 50;
 module.exports = {
 name : "Theme Park",
-description : "Fun at the fair",
+description : "Fun at the fairway",
 order : 1,
 maxScore : 13 * numberOfBalloons,
 config : {
