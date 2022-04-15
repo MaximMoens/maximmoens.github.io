@@ -25,16 +25,18 @@
 	
 </head>
 <body>
-	<script type="module">
-		import { VRButton } from './jsm/webxr/VRButton.js';
-		document.body.appendChild( VRButton.createButton( renderer ) );
-		renderer.xr.enabled = true;
+	<div id='vr' class='vr'>
+		<script type="module">
+			import { VRButton } from './jsm/webxr/VRButton.js';
+			document.body.appendChild( VRButton.createButton( renderer ) );
+			renderer.xr.enabled = true;
 		
-		renderer.setAnimationLoop( function () {
-			renderer.render( scene, camera );
-		} );
-	</script>
-	
+			renderer.setAnimationLoop( function () {
+				renderer.render( scene, camera );
+			} );
+		</script>
+	</div>
+		
 	<div id='menu' class='menu'>
 		
 		<a class="burger-wrapper" href="#menu" id="menu-button" title='Hit ESC key to open/close'>
