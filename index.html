@@ -25,6 +25,15 @@
 	
 </head>
 <body>
+	<script type="module">
+		import { VRButton } from './jsm/webxr/VRButton.js';
+		document.body.appendChild( VRButton.createButton( renderer ) );
+		renderer.xr.enabled = true;
+		
+		renderer.setAnimationLoop( function () {
+			renderer.render( scene, camera );
+		} );
+	</script>
 	
 	<div id='menu' class='menu'>
 		
